@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  display: grid;
+}
+
+#desktop{
+  display: grid;
+  grid-template-columns: 20vw 65vw 15vw;
+  grid-template-rows:  10vh 150vh 20vh;
+  background-color: #badbba;
+}
+
+#header{
+  border: 1px solid;
+  grid-column: 1 / span 3;
+  background-color: #006301;
+}
+
+#nav{
+  border: 1px solid;
+}
+
+#article{
+  border: 1px solid;
+}
+
+#ads{
+  border: 1px solid;
+}
+
+#footer{
+  border: 1px solid;
+  grid-column: 1 / 4;
+}
