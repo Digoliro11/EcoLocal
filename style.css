@@ -17,6 +17,46 @@ body{
   color: #fafafa;
   text-align: left;
   padding: 4vh;
+  font-size: xx-large;
+}
+
+#borda{
+  border: 1px solid;
+}
+
+#negrito{
+  font-size: xx-large;
+}
+
+#home2{
+  height: 40vh;
+  padding: 5%;
+  font-size: x-large;
+  justify-content: center;
+  gap: 10px;
+}
+
+#desktop2{
+  background-color: #badbba;
+
+}
+
+#header2{
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: #006301;
+  color: #fafafa;
+  text-align: center;
+  padding: 4vh;
+
+}
+
+#foto-foda{
+  height: 128vh;
+  background-repeat: no-repeat;
+  background-image: url(b8ee6642069503.57bf1d583b632.jpg);
+  background-size: cover;
 }
 
 #photo{
@@ -28,8 +68,83 @@ body{
 }
 
 #nav{
-  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 30% 10% 10% 20%;
+  align-items: center;
+  justify-content: center;
 }
+
+#btnPagina{
+  display: grid;
+}
+
+#lixo{
+  position: absolute;
+  top: 130vh;
+  left: 5vw;
+}
+
+
+.bonitao{
+  position: absolute;
+  top: 170vh;
+  left: 4vw;
+  border: 0;
+  width: 10vw;
+  text-align: center;
+  align-content: center;
+  border-radius: 25px;
+  height: 5vh;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #505050;
+  color: #fafafa;
+  box-shadow: 0px 5px 0px #3a3a3a;
+  transition: .1s;
+  cursor: pointer;
+}
+
+.bonitao:hover{
+  background-color: #3a3a3a;
+
+}
+
+.bonitao:active{
+  transform: translateY(5px);
+  box-shadow: none;
+}
+
+.bonitao2{
+  position: absolute;
+  top: 2vh;
+  right: 4vw;
+  border: 0;
+  width: 10vw;
+  text-align: center;
+  align-content: center;
+  border-radius: 25px;
+  height: 5vh;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #005301;
+  color: #fafafa;
+  box-shadow: 0px 5px 0px #004401;
+  transition: .1s;
+  cursor: pointer;
+}
+
+.bonitao2:hover{
+  background-color: #005501;
+
+}
+
+.bonitao2:active{
+  transform: translateY(5px);
+  box-shadow: none;
+}
+
+
 
 #home{
   padding: 4%;
@@ -37,6 +152,7 @@ body{
   font-size: large;
   font-family: 'Times New Roman', Times, serif ;
   text-justify: auto;
+  gap: 4px;
 }
 
 #rodape{
@@ -47,9 +163,21 @@ body{
   align-items: center;
 }
 
+#rodape2{
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.712);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  position: absolute;
+  top: 180vh;
+}
+
 #redes{
   display: flex;
   flex-direction: column;
+  row-gap: 5px;
 }
 
 .botao-fodao{
@@ -76,4 +204,31 @@ body{
 .botao-fodao:active{
   transform: translateY(5px);
   box-shadow: none;
+}
+
+#inspiracoes{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fafafa;
+}
+
+#copyright{
+  color: #fafafa;
+
+}
+
+#foda{
+  color: #c83333;
+  gap: 5px;
+}
+
+#verde{
+  color: #007e02;
+  font-weight: bolder;
+}
+
+#verde2{
+  color: #00ad03;
+  font-weight: bolder;
 }
