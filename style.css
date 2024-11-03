@@ -5,36 +5,75 @@ body{
 
 #desktop{
   display: grid;
-  grid-template-columns: 20vw 80vw;
-  grid-template-rows:  10vh 110vh 150vh 20vh;
+  grid-template-columns: 20vw 80vw ;
+  grid-template-rows:  10vh 110vh 90vh 20vh;
   background-color: #badbba;
+  width: 100%;
 }
 
 #header{
-  border: 1px solid;
   grid-column: 1 / span 2;
-  background-color: #006302b9;
+  background-color: #006301;
+  color: #fafafa;
+  text-align: left;
+  padding: 4vh;
 }
 
 #photo{
   grid-column: 1 / span 2;
-  border: 1px solid;
   background-image: url(plantafoda.PNG);
-  background-clip: border-box;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #nav{
-  border: 1px solid;
+  
 }
 
-#article{
-  border: 1px solid;
+#home{
+  padding: 4%;
+  padding-right: 6%;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif ;
+  text-justify: auto;
 }
 
-#footer{
-  border: 1px solid;
+#rodape{
+  display: grid;
   grid-column: 1 / span 2;
   background-color: rgba(0, 0, 0, 0.377);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+#redes{
+  display: flex;
+  flex-direction: column;
+}
+
+.botao-fodao{
+  border: 0;
+  width: 50%;
+  text-align: center;
+  align-content: center;
+  border-radius: 25px;
+  height: 5vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #006301;
+  color: #fafafa;
+  box-shadow: 0px 5px 0px #004601;
+  transition: .1s;
+  cursor: pointer;
+}
+
+.botao-fodao:hover{
+  background-color: #005501;
+
+}
+
+.botao-fodao:active{
+  transform: translateY(5px);
+  box-shadow: none;
 }
