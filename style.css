@@ -161,6 +161,7 @@ body{
   background-color: rgba(0, 0, 0, 0.377);
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
+  width: 100%;
 }
 
 #rodape2{
@@ -215,7 +216,8 @@ body{
 
 #copyright{
   color: #fafafa;
-
+  text-align: left;
+  width: 50%;
 }
 
 #foda{
@@ -224,8 +226,9 @@ body{
 }
 
 #verde{
-  color: #007e02;
+  color: #009b03;
   font-weight: bolder;
+  text-shadow: 1px 1px 1px #056906;
 }
 
 #verde2{
